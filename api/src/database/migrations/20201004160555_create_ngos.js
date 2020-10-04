@@ -12,3 +12,4 @@ exports.up = function (knex) {
 exports.down = function (knex) {
   return knex.schema.dropTable('ngos');
 };
+// 20201004160555_create_ngos
